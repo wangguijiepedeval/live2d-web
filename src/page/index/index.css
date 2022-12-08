@@ -8,6 +8,8 @@
     margin: 0px;
     padding: 0px;
     outline: none;
+    width: 800px;
+    background-color: #cad7c5;
 }
 
 input:-webkit-autofill {
@@ -18,7 +20,8 @@ input:-webkit-autofill {
 body {
     font-family: Microsoft YaHei;
     font-size: 12px;
-    background: #fff;
+    /* background: #fff; */
+    background: #cad7c5;
 }
 
 .row {

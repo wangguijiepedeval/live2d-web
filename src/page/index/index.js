@@ -3,6 +3,7 @@ require('../common/index.js');
 // require('page/common/nav-top-simple/index.js')
 require('page/common/nav-top/index.js');
 require('page/common/nav-search/index.js');
+
 // require("../../live2d-widget/autoload.js");
 require("../../live2d-widget/waifu.css")
 require("../../live2d-widget/live2d.min.js");
@@ -53,7 +54,8 @@ var _common_util = require('utils/util.js');
                 waifuPath: "../../live2d-widget/waifu-tips.json",
                 //apiPath: "https://live2d.fghrsh.net/api/",
                 cdnPath: "https://fastly.jsdelivr.net/gh/fghrsh/live2d_api/",
-                tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
+                tools: ["hitokoto", "photo", "info", "switch-model", "switch-texture"]
             });
         });
     }
+
