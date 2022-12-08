@@ -1,0 +1,18 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# node js npm module
+/node_modules/
+
+# 目标文件夹
+/dist/
+
+# Mac
+.DS_Store
